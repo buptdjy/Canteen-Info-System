@@ -1,0 +1,9 @@
+<!--miniprogram/pages/canteen/canteen.wxml-->
+<view class="container">
+<view class="guide">
+    <text class="headline">{{canteenlist[mid-1].name}}</text>
+    <text class="p">当前人流量</text>
+    <text class="p">{{canteenlist[mid-1].people}}</text>
+
+  </view>
+</view>
